@@ -1,0 +1,48 @@
+html {
+    background-color: #FDFE95;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 100px;
+  text-align: center; 
+  position: relative;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+ #display {
+  width: 100%;
+  padding: 15px;
+  font-size: 72px;
+  margin: auto;
+}
+
+.buttons {
+    display: inline-flex;
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    font-size: 11vw;
+    padding: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+
+#startStop
+{
+    display: flex;
+    background: #FFA727; 
+    border-radius: 15px;
+    margin-left: 35%;
+
+}
+
+#reset
+{
+    display:flex;
+    background: #FFA727; 
+    border-radius: 15px;
+    margin-right: 15%;
+}
