@@ -52,8 +52,9 @@ function stopWatch() {
     displayHours + ":" + displayMinutes + ":" + displaySeconds;
 }
 
+
 function startStop() {
-  if ((status = "stopped")) {
+  if (status === "stopped") {
     //start the stopwatch
     interval = window.setInterval(stopWatch, 1000);
     document.getElementById("startStop").innerHTML = "Stop";
