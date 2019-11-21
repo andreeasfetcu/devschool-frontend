@@ -3,19 +3,25 @@ html {
 }
 
 .container {
-  height: 100%;
-  width: 100%;
-  padding: 100px;
+  height: 100px;
+  width: 100px;
+  /*padding: 100px;*/
   text-align: center; 
-  position: relative;
+  position: absolute;
+  left:50%;
+  top:50%;
   font-family: 'ABeeZee', sans-serif;
+  
 }
 
  #display {
-  width: 100%;
+  width: 100px;
   padding: 15px;
   font-size: 72px;
   margin: auto;
+  text-align: center;
+  transform: translate(-50%, -50%);
+
 }
 
 .buttons {
@@ -24,7 +30,7 @@ html {
     width: 20%;
     height: 50px;
     font-size: 11vw;
-    padding: 25px;
+    padding: 15px;
     position: absolute;
     transform: translate(-50%, -50%);
     
@@ -35,7 +41,7 @@ html {
     display: flex;
     background: #FFA727; 
     border-radius: 15px;
-    margin-left: 35%;
+   /* margin-left: 35%;*/
 
 }
 
@@ -44,5 +50,5 @@ html {
     display:flex;
     background: #FFA727; 
     border-radius: 15px;
-    margin-right: 15%;
+   /* margin-right: 15%;*/
 }
