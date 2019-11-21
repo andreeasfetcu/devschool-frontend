@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+/* nu prea e ok de folosit, de evitat. */
+/*  */
+
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+header {
+  background-color: #005343;
+  padding: 19px;
+  text-align: center;
+  font-size: 25px;
+  color: #3fa591;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 24px 0;
+  border-bottom: 1px solid lightseagreen;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+#personal-info {
+  display: grid;
+  background: #9ddfd2;
+  color: #000605;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  color: #000605;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.my-name {
+  font-size: 48px;
+  line-height: 1;
+}
+
+img.image {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+#education {
+  flex: 3;
+  background: #9ddfd2;
+  color: #000605;
+  padding: 20px;
+}
+
+#skills {
+  flex: 1;
+  background: #9ddfd2;
+  color: #000605;
+  padding: 20px;
+}
+
+#hobbies {
+  display: flex;
+  -ms-flex: 1;
+  flex: 1;
+  background: #9ddfd2;
+  color: #000605;
+  padding: 20px;
+}
+
+li {
+  padding: 3px;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 760px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+
+  #skills {
+    grid-template-columns: 1fr 4fr;
+  }
+}

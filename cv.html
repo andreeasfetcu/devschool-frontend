@@ -1,59 +1,87 @@
 <!DOCTYPE html>
+<!-- in loc de th(+centrare), fol layout + multe sectiuni -->
 <html lang="en-US">
-    <head><title>My Resume</title></head>
-    <body bgcolor=#ccffff>
-        <table border="1" align="center" width="70%">
-            <tr>
-                <th><h1>Welcome to my resume!</h1></th>
-            </tr>
-            <tr>
-                <th align="left"><h2>Andreea Sfetcu</h2>
-                <b>Student at: Economics Informatics-3rd Year<br> The Bucharest University of Economic Studies<br></b>
-                Mobile No: +40729999999 <br>
-                Email Address: andreea98elena@gmail.com <br><br>
-                <h2> Personal information: </h2>
-                <ul>
-                    <li>Address: Str. Rozelor, no. 4</li>
-                    <li>Date of birth: 27.05.1998</li>
-                    <li>Nationality: Romanian</li>
-                </ul>
+  <head>
+    <link rel="stylesheet" type="text/css" href="cv.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Resume</title>
+  </head>
 
-                <h2> Personal Certificates & Skills:</h2>
-                <ul>
-                    <li>Java</li>
-                    <li>SQL, PL/SQL</li>
-                    <li>JavaScript</li>
-                    <li>HTML, CSS</li>
-                    <li>Oracle Database Design and Programming with SQL </li>
-                    <li>JavaScript Fundamentals Certificate(TelAcad)</li>
-                </ul>
-                  
-                <h2> Soft Skills:</h2>
-                <ul>
-                    <li>Communicative</li>
-                    <li>Teamwork</li>
-                    <li>Adaptability</li>
-                    <li>Problem-Solving</li>
-                    <li>Creativity</li>
-                    <li>Time Management</li>
-                    <li>Work Ethic</li>
-                    <li>Perseverant</li>
-                    <li>Critical observation</li>
-                </ul>
+  <body>
+    <header>
+      <h1>Curriculum Vitae</h1>
+      <br /><br />
+    </header>
 
-                </th>
-            </tr>
+    <section id="personal-info">
+      <div><img src="img/cv.jpeg" alt="just_an_image" class="image" /></div>
+      <adress>
+        <div class="my-name">Andreea Sfetcu</div>
+        <strong
+          >Student at: Economic Informatics-3rd Year<br />
+          The Bucharest University of Economic Studies<br
+        /></strong>
+        <strong>Mobile No: </strong><a href="tel:+4072999999">(+40)72999999</a
+        ><br />
+        <strong>Email: </strong
+        ><a href="mailto:andreea98elena@gmail.com">andreea98elena@gmail.com </a
+        ><br /><br />
+        <p>Personal information:</p>
+        <ul>
+          <li>Address: Str. Rozelor, no. 4</li>
+          <li>Date of birth: 27-05-1998</li>
+          <li>Nationality: Romanian</li>
+        </ul>
+      </adress>
+    </section>
 
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong
+            ><small>2.10.2017- ongoing: </small>The Bucharest University of
+            Economic Studies: Cybernetics, Statistics and Economic Informatics-
+            Economic Informatics</strong
+          ><br /><br />
+        </li>
+        <li>
+          <strong
+            ><small>15.10.2019- ongoing: </small>ING-{Dev}School- Java & Web
+            Components Edition</strong
+          ><br />
+        </li>
+      </ul>
+    </section>
 
+    <section id="skills">
+      <h2>Personal Certificates & Skills:</h2>
+      <ul>
+        <li>Java</li>
+        <li>SQL, PL/SQL</li>
+        <li>JavaScript</li>
+        <li>HTML, CSS</li>
+        <li>Oracle Database Design and Programming with SQL</li>
+        <li>JavaScript Fundamentals Certificate(TelAcad)</li>
+      </ul>
+    </section>
 
-
-
-
-        </table>
-
-
-
-
-
-    </body>
+    <section id="hobbies">
+      <h2>Soft Skills:</h2>
+      <ul>
+        <li>Communicative</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+        <li>Problem-Solving</li>
+        <li>Creativity</li>
+        <li>Time Management</li>
+        <li>Work Ethic</li>
+        <li>Perseverant</li>
+        <li>Critical observation</li>
+      </ul>
+    </section>
+  </body>
 </html>
